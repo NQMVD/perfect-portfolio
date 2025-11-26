@@ -17,7 +17,7 @@ export function ChanhDaiMark(props: React.ComponentProps<"svg">) {
 export function StardiveLogo(props: React.ComponentProps<"img">) {
   return (
     <img
-      src="src/assets/Stardive-branding.png"
+      src="/Stardive-branding-plus-icon.png"
       alt="Stardive Logo"
       fetchPriority="high"
       {...props}

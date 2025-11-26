@@ -17,6 +17,7 @@ import {
 } from "@/components/ui/tooltip";
 import { ProseMono } from "@/components/ui/typography";
 import { UTM_PARAMS } from "@/config/site";
+import { cn } from "@/lib/utils";
 import { addQueryParams } from "@/utils/url";
 
 import type { Project } from "../../types/projects";
@@ -122,6 +123,20 @@ export function ProjectItem({
                 <ProseMono>
                   <Markdown>{project.description}</Markdown>
                 </ProseMono>
+              )}
+
+              {project.badges.length > 0 && (
+                <ul className="flex flex-wrap gap-1.5">
+                  {project.badges.map((badge, index) => (
+                    <li key={index} className="flex">
+                      <img
+                        alt="Static Badge"
+                        src={badge}
+                        className={cn("rounded-lg dark:bg-zinc-900", className)}
+                      />
+                    </li>
+                  ))}
+                </ul>
               )}
 
               {project.skills.length > 0 && (

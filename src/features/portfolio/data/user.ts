@@ -42,15 +42,12 @@ export const USER: User = {
   // Let's connect and collaborate!
   //   `,
   about: `
-- **Design Engineer** with **5+ years of experience**, known for pixel-perfect execution and strong attention to small details.
-- Skilled in **Next.js**, **React**, **TypeScript**, and modern front-end technologies; building high-quality, user-centric web and mobile applications.
-- Passionate about exploring new technologies and turning ideas into reality through polished, thoughtfully crafted personal projects.
-- Creator of [ZaDark](https://zadark.com) (2022): enhances the Zalo experience on PC & Web
-  - **80k+ downloads** on [SourceForge](https://sourceforge.net/projects/zadark)
-  - **20k+ active users** on the [Chrome Web Store](https://chromewebstore.google.com/detail/llfhpkkeljlgnjgkholeppfnepmjppob)
-- Creator of [React Wheel Picker](https://react-wheel-picker.chanhdai.com): iOS-like wheel picker with inertia scrolling & infinite loop
-  - **7k+ weekly downloads** on [npm](https://www.npmjs.com/package/@ncdai/react-wheel-picker)
-  - [▲Vercel OSS Program](https://vercel.com/blog/summer-2025-oss-program#react-wheel-picker) summer 2025 cohort
+- **Software Developer** with **7+ years of experience**, known for pixel-perfect execution and strong attention to small details.
+- Skilled in **Java**, **Rust**, **Lua**, and modern front-end technologies; building high-quality, user-centric web and mobile applications.
+- Passionate about exploring new technologies and turning ideas into reality through thoughtfully crafted personal projects.
+- Creator of [STARDIVE](https://stardive.space) (2023): developer tools for everyone
+  - **HIGHLY WIP** on [Github](https://github.com/NQMVD/stardive)
+  - **10+ Apps** planned and in the Workings
 `,
   avatar: "https://avatars.githubusercontent.com/u/99403507?v=4",
   ogImage:
@@ -58,16 +55,14 @@ export const USER: User = {
   namePronunciationUrl: "/audio/chanhdai.mp3",
   timeZone: "Europe/Berlin",
   keywords: [
-    "ncdai",
-    "nguyenchanhdai",
-    "nguyen chanh dai",
-    "chanhdai",
-    "chanh dai",
-    "iamncdai",
-    "quaric",
-    "zadark",
-    "nguyễn chánh đại",
-    "chánh đại",
+    "noah",
+    "needs",
+    "boss",
+    "warp",
+    "scord",
+    "luatask",
+    "love track",
+    "loveui",
   ],
-  dateCreated: "2023-10-20", // YYYY-MM-DD
+  dateCreated: "2025-11-25", // YYYY-MM-DD
 };

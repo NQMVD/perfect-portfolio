@@ -2,31 +2,34 @@ import type { Project } from "../types/projects";
 
 export const PROJECTS: Project[] = [
   {
-    id: "react-wheel-picker",
-    title: "React Wheel Picker",
+    id: "needs",
+    title: "needs - CLI Tool",
     period: {
-      start: "05.2025",
+      start: "07.2024",
     },
     link: "https://react-wheel-picker.chanhdai.com",
     skills: [
       "Open Source",
-      "React",
-      "TypeScript",
-      "Monorepo",
-      "Turborepo",
-      "pnpm-workspace",
+      "Rust",
+      "CLI",
       "Package Publishing",
-      "NPM Registry",
+      "crates.io",
       "GitHub Actions",
     ],
-    description: `iOS-like wheel picker for React with smooth inertia scrolling and infinite loop support. / Backed by [▲Vercel OSS Program](https://vercel.com/blog/summer-2025-oss-program#react-wheel-picker)
-- 📱 Natural touch scrolling with smooth inertia effect
-- 🖱️ Mouse drag and scroll support for desktop
-- 🔄 Infinite loop scrolling
-- 🎨 Unstyled components for complete style customization
-- ⚡️ Easy installation via shadcn CLI
+    badges: [
+      "https://img.shields.io/crates/v/needs?logo=rust&style=for-the-badge",
+      "https://img.shields.io/crates/d/needs?logo=rust&style=for-the-badge",
+      "https://img.shields.io/crates/l/needs?logo=rust&style=for-the-badge",
+    ],
+    description: `<h4>Check if given bin(s) are available on your system and, optionally, get their version.</h4>
+    <i>...multi-threaded of course..</i>
+    made with:
+
+    ![Static Badge](https://img.shields.io/badge/test)
+
+- ⚡️ Easy installation via cargo CLI
 `,
-    logo: "https://assets.chanhdai.com/images/project-logos/react-wheel-picker.svg",
+    logo: "https://github.com/NQMVD/needs/blob/master/icon.svg?raw=true",
     isExpanded: true,
   },
   {
@@ -46,6 +49,7 @@ export const PROJECTS: Project[] = [
       "Component Registry",
       "Vercel",
     ],
+    badges: [],
     description: `A minimal, pixel-perfect dev portfolio, component registry, and blog.
 
 **Featured:**
@@ -93,6 +97,7 @@ export const PROJECTS: Project[] = [
       "Docker Compose",
       "NGINX",
     ],
+    badges: [],
     logo: "https://assets.chanhdai.com/images/project-logos/quaricdotcom.svg",
   },
   {
@@ -109,6 +114,7 @@ export const PROJECTS: Project[] = [
       "CLI",
       "Docusaurus 3",
     ],
+    badges: [],
     description: `ZaDark adds Dark Mode, anti-peeking, customizable fonts, backgrounds, and more to Zalo Web and PC.
 - Earned 10M+ VND in net sales from a paid Safari Extension
 - 80k+ downloads on SourceForge (awarded Community Leader badge by SourceForge)
@@ -132,6 +138,7 @@ export const PROJECTS: Project[] = [
       "Docker",
       "Docker Compose",
     ],
+    badges: [],
     description:
       "- Course: Distributed Applications — FIT@HCMUS\n- Project Score: 10/10\n- Source Code: https://github.com/ncdai/qabox",
   },
@@ -151,6 +158,7 @@ export const PROJECTS: Project[] = [
       "Docker",
       "Docker Compose",
     ],
+    badges: [],
     description:
       "- Course: Distributed Applications — FIT@HCMUS\n- Project Score: 10/10\n- Source Code: https://github.com/ncdai/taskbox",
   },
@@ -163,6 +171,7 @@ export const PROJECTS: Project[] = [
     },
     link: "https://www.youtube.com/watch?v=H5U3J_W1low",
     skills: ["University Project", "Java", "Java Swing", "Java Networking"],
+    badges: [],
     description: `- Course: Java Application Programming — FIT@HCMUS
 - Requirement: Developed a real-time chat application using Java technologies
 - Project Score: 10/10
@@ -179,6 +188,7 @@ export const PROJECTS: Project[] = [
     },
     link: "https://www.youtube.com/watch?v=tG9SZEBrwog",
     skills: ["University Project", "Java", "Java Swing", "Hibernate", "MySQL"],
+    badges: [],
     description: `- Course: Java Application Programming — FIT@HCMUS
 - Requirement: Built a student management system with role-based functionalities using Java technologies
 - Project Score: 10/10
@@ -193,6 +203,7 @@ export const PROJECTS: Project[] = [
     },
     link: "https://www.youtube.com/watch?v=EdU7rUO-UA4",
     skills: ["Startup Project", "JavaScript", "React Native"],
+    badges: [],
     description: "2nd Prize — Business Startup Competition 2019",
   },
   {
@@ -212,6 +223,7 @@ export const PROJECTS: Project[] = [
       "jQuery",
       "Bootstrap 3",
     ],
+    badges: [],
     description: `UnlimitedStudy is a website that provides teaching and learning support tools for teachers and students.
 - 3rd Prize — National Science and Engineering Fair 2018 (ViSEF)
 - 1st Prize — Can Tho City Science and Engineering Fair 2018
@@ -238,6 +250,7 @@ export const PROJECTS: Project[] = [
       "MongoDB",
       "Mongoose ODM",
     ],
+    badges: [],
     description:
       "A Messenger clone built to practice real-time communication using Socket.IO. This project showcases my self-learning journey in implementing WebSockets for instant messaging.",
   },
@@ -256,6 +269,7 @@ export const PROJECTS: Project[] = [
       "Laravel 4",
       "MySQL",
     ],
+    badges: [],
     description: `Study English is a free, mobile-friendly website for high school English learning, offering vocabulary, quizzes, listening practice, and more.
 - Consolation Prize — National Youth and Children's Creativity Contest 2016
 - 1st Prize — Can Tho City Youth and Children's Creativity Contest 2016

@@ -15,7 +15,7 @@ export function ProfileCover() {
       >
         <StardiveLogo
           id="js-cover-mark"
-          className="h-14 w-28 sm:h-16 sm:w-32"
+          className="h-28 w-28 sm:h-32 sm:w-32"
         />
       </div>
     </BrandContextMenu>

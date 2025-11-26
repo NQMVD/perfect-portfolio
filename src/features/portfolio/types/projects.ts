@@ -16,6 +16,8 @@ export type Project = {
   link: string;
   /** Tags/technologies for chips or filtering. */
   skills: string[];
+  /** shields.io badges. */
+  badges: string[];
   /** Optional rich description; Markdown and line breaks supported. */
   description?: string;
   /** Logo image URL (absolute or path under /public). */
