@@ -1,23 +1,23 @@
 import type { User } from "@/features/portfolio/types/user";
 
 export const USER: User = {
-  firstName: "Chánh Đại",
-  lastName: "Nguyễn",
-  displayName: "Chánh Đại",
-  username: "ncdai",
+  firstName: "Noah",
+  lastName: "Buergler",
+  displayName: "Noah",
+  username: "noahb",
   gender: "male",
   pronouns: "he/him",
   bio: "Creating with code. Small details matter.",
   flipSentences: [
     "Creating with code. Small details matter.",
-    "Design Engineer",
-    "Open Source Contributor",
+    "Software Engineer",
+    "Open Source Enthusiast",
   ],
-  address: "Ho Chi Minh City, Viet Nam",
-  phoneNumber: "Kzg0Nzc3ODg4MTQ4", // E.164 format, base64 encoded (https://t.io.vn/base64-string-converter)
-  email: "ZGFpQGNoYW5oZGFpLmNvbQ==", // base64 encoded
-  website: "https://chanhdai.com",
-  jobTitle: "Design Engineer",
+  address: "Stuttgart, Germany",
+  phoneNumber: "KzQ5IDE3MiAyNTkyNDk3", // E.164 format, base64 encoded (https://t.io.vn/base64-string-converter)
+  email: "bm9haGJAaGV5LmNvbQ==", // base64 encoded
+  website: "https://noah.stardive.live",
+  jobTitle: "Software Engineer",
   jobs: [
     {
       title: "Senior Frontend Developer & UI Design Lead",
@@ -52,11 +52,11 @@ export const USER: User = {
   - **7k+ weekly downloads** on [npm](https://www.npmjs.com/package/@ncdai/react-wheel-picker)
   - [▲Vercel OSS Program](https://vercel.com/blog/summer-2025-oss-program#react-wheel-picker) summer 2025 cohort
 `,
-  avatar: "https://assets.chanhdai.com/images/chanhdai-avatar-ghibli.webp",
+  avatar: "https://avatars.githubusercontent.com/u/99403507?v=4",
   ogImage:
     "https://assets.chanhdai.com/images/screenshot-og-image-light.png?t=1763205174",
   namePronunciationUrl: "/audio/chanhdai.mp3",
-  timeZone: "Asia/Ho_Chi_Minh",
+  timeZone: "Europe/Berlin",
   keywords: [
     "ncdai",
     "nguyenchanhdai",

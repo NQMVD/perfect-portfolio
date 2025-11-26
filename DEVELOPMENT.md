@@ -35,6 +35,8 @@ cp .env.example .env.local
 
 Then, update the necessary environment variables inside `.env.local`.
 
+> change data in src/features/portfolio/data
+
 ### 4. Run the development server
 
 ```bash
