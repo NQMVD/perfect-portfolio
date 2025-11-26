@@ -8,24 +8,18 @@ export const PROJECTS: Project[] = [
       start: "07.2024",
     },
     link: "https://react-wheel-picker.chanhdai.com",
-    skills: [
-      "Open Source",
-      "Rust",
-      "CLI",
-      "Package Publishing",
-      "crates.io",
-      "GitHub Actions",
-    ],
+    skills: [],
     badges: [
-      "https://img.shields.io/crates/v/needs?logo=rust&style=for-the-badge",
-      "https://img.shields.io/crates/d/needs?logo=rust&style=for-the-badge",
-      "https://img.shields.io/crates/l/needs?logo=rust&style=for-the-badge",
+      // hackthebox
+      "https://img.shields.io/badge/Rust-fe7a15?style=for-the-badge&logo=rust&logoColor=white&logoSize=auto&labelColor=292324",
+      "https://img.shields.io/crates/v/needs.svg?style=for-the-badge&logoColor=white&logoSize=auto&labelColor=292324",
+      "https://img.shields.io/badge/Charm-Gum-FAA5EA?style=for-the-badge&labelColor=292324",
+      "https://img.shields.io/badge/Charm-Freeze-8CFEFE?style=for-the-badge&labelColor=292324",
+      "https://img.shields.io/badge/Bacon-FF8080?style=for-the-badge&labelColor=292324",
+      "https://img.shields.io/badge/Just-000000?style=for-the-badge&logo=just&logoColor=white&labelColor=292324",
     ],
-    description: `<h4>Check if given bin(s) are available on your system and, optionally, get their version.</h4>
+    description: `Check if given bin(s) are available on your system and, optionally, get their version.
     <i>...multi-threaded of course..</i>
-    made with:
-
-    ![Static Badge](https://img.shields.io/badge/test)
 
 - ⚡️ Easy installation via cargo CLI
 `,

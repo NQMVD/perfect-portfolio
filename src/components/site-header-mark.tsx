@@ -4,6 +4,8 @@ import { useMotionValueEvent, useScroll } from "motion/react";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 
+import { USER } from "@/features/portfolio/data/user";
+
 import { ChanhDaiMark, StardiveLogo } from "./chanhdai-mark";
 
 const calcDistance = (el: HTMLElement) => {
@@ -39,10 +41,21 @@ function ChanhDaiMarkMotion() {
   }, []);
 
   return (
-    <StardiveLogo
+    // <StardiveLogo
+    //   data-visible={visible}
+    //   className="translate-y-2 opacity-0 transition-[opacity,translate] duration-300 data-[visible=true]:translate-y-0 data-[visible=true]:opacity-100"
+    // />
+    <div
+      className="mx-0.5 my-[3px] translate-y-2 opacity-0 transition-[opacity,translate] duration-300 data-[visible=true]:translate-y-0 data-[visible=true]:opacity-100"
       data-visible={visible}
-      className="translate-y-2 opacity-0 transition-[opacity,translate] duration-300 data-[visible=true]:translate-y-0 data-[visible=true]:opacity-100"
-    />
+    >
+      <img
+        className="size-8 rounded-full ring-1 ring-border ring-offset-2 ring-offset-background select-none sm:size-8"
+        alt={`${USER.displayName}'s avatar`}
+        src={USER.avatar}
+        fetchPriority="high"
+      />
+    </div>
   );
 }
 

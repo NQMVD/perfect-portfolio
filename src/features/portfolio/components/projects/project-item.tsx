@@ -132,7 +132,7 @@ export function ProjectItem({
                       <img
                         alt="Static Badge"
                         src={badge}
-                        className={cn("rounded-lg dark:bg-zinc-900", className)}
+                        className={cn("rounded-md dark:bg-zinc-900", className)}
                       />
                     </li>
                   ))}
